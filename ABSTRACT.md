@@ -1,5 +1,8 @@
-The authors introduce the **OPEDD: Off-Road Pedestrian Detection Dataset** for pedestrian detection which consists of 1020 images showing varying numbers of persons in differing non-urban environments and comes with manually annotated pixel-level segmentation masks and bounding boxes. It shows significant occlusion of persons from vegetation, crops, objects or other pedestrians. In dataset every image comes with manually created ground truth pixel-level segmentation masks
-and individual ***person id*** for every portrayed pedestrian, allowing the data to be used for tasks like object detection (bounding boxes), semantic segmentation (pixel masks) or instance segmentation (pixel masks and ***person id***).
+The authors introduce the **OPEDD: Off-Road Pedestrian Detection Dataset** for pedestrian detection which consists of 1020 images showing varying numbers of persons in differing non-urban environments and comes with manually annotated pixel-level segmentation masks and bounding boxes. It shows significant occlusion of persons from vegetation, crops, objects or other pedestrians. In dataset every image comes with manually created ground truth pixel-level segmentation masks and individual ***person id*** for every portrayed pedestrian, allowing the data to be used for tasks like object detection (bounding boxes), semantic segmentation (pixel masks) or instance segmentation (pixel masks and ***person id***).
+
+Note, similar **OPEDD: Off-Road Pedestrian Detection Dataset** dataset is also available on the [DatasetNinja.com](https://datasetninja.com/):
+
+- [OPEDD: Off-Road Pedestrian Detection Dataset](https://datasetninja.com/opedd)
 
 ## Motivation
 
@@ -17,17 +20,15 @@ Off-road, agricultural or rural environments show several characteristics that d
 
 * **Occlusion** In surroundings dominated by vegetation partial occlusion of persons by leaves, grass or branches is very common. Examples are people harvesting fruit in orchards or a person standing in field crops, having parts of the lower body obstructed. Additionally, the boundary of occlusions is often much fuzzier than in the case of occlusions by e.g. cars in the urban setting.
 
-<img src="https://github.com/dataset-ninja/opedd/assets/120389559/f10a2396-7d1d-48ac-8e7a-d38b2a61b5ee" alt="image" width="800">
+<img src="https://github.com/dataset-ninja/opedd/assets/120389559/f10a2396-7d1d-48ac-8e7a-d38b2a61b5ee" alt="image" width="1000">
 
-<span style="font-size: smaller; font-style: italic;">Dataset shows different types of occlusion in varying environments, including naturally occurring
-obstacles (left: vegetation, center: construction materials) and unusual objects (right: umbrella).</span>
+<span style="font-size: smaller; font-style: italic;">Dataset shows different types of occlusion in varying environments, including naturally occurring obstacles (left: vegetation, center: construction materials) and unusual objects (right: umbrella).</span>
 
 * **Poses** Due to the nature of city scenes, datasets for pedestrian detection in urban environments show persons predominantly standing or walking upright. Additionally, because the data is usually captured from a vehicle driving on the road, most pedestrians are located on the lateral edges of the image, with persons only directly in front of the camera if the data-capturingvehicle is positioned in front of a cross- or sidewalk. Contrary to that, many agricultural or industrial scenes show persons in unusual and more challenging poses: often the person is seen working in a crouching or bent position and limbs extended in differing ways are common. Due to the hazardous environment on construction sites, the vehicle could encounter people lying on the ground. In general, off-road scenes display a much larger variety of poses than the average urban scene.
 
-<img src="https://github.com/dataset-ninja/opedd/assets/120389559/486b9717-d171-4312-84fe-c9d7b8468d2f" alt="image" width="800">
+<img src="https://github.com/dataset-ninja/opedd/assets/120389559/486b9717-d171-4312-84fe-c9d7b8468d2f" alt="image" width="1000">
 
-<span style="font-size: smaller; font-style: italic;">Special attention was paid to capture a wide range of poses not usually encountered in urban driving
-datasets. Left: Handstand. Center: Jumping with extended limbs. Right: Head covered with clothes.</span>
+<span style="font-size: smaller; font-style: italic;">Special attention was paid to capture a wide range of poses not usually encountered in urban driving datasets. Left: Handstand. Center: Jumping with extended limbs. Right: Head covered with clothes.</span>
 
 
 
@@ -42,7 +43,7 @@ The authors record all sequences of our dataset using a Stereolabs ZED Camera. T
 * **Poses**  Dataset shows a variety of uncommon and challenging poses including people doing handstands, lying on the ground or on objects, lying on the back or
 on the side, sitting, crouching or bent over, limbs extended as well as running and jumping.
 
-* **Composition** Special attention was paid to have multiple positions in the image covered by pedestrians, to avoid the urban situation where persons are located mainly at the sides. Additionally we vary the number of persons and the distances they appear to the camera. Most images are taken from eye-level up to 1m above, facing forward, to simulate taller vehicles like tractors or excavators, with images showing a more downward facing angle.
+* **Composition** Special attention was paid to have multiple positions in the image covered by pedestrians, to avoid the urban situation where persons are located mainly at the sides. Additionally the authors vary the number of persons and the distances they appear to the camera. Most images are taken from eye-level up to 1m above, facing forward, to simulate taller vehicles like tractors or excavators, with images showing a more downward facing angle.
 
 <img src="https://github.com/dataset-ninja/opedd/assets/120389559/714e637d-155e-48bc-8157-4faa26bfb2e1" alt="image" width="800">
 
@@ -54,7 +55,7 @@ on the side, sitting, crouching or bent over, limbs extended as well as running 
 
 * **Lighting** The light conditions vary naturally as well as intentionally, with some images being taken against direct sunlight or with people being hidden in the shadows of walls or trees.
 
-<img src="https://github.com/dataset-ninja/opedd/assets/120389559/b348689a-70c4-4d62-a9b6-bf05563781b7" alt="image" width="800">
+<img src="https://github.com/dataset-ninja/opedd/assets/120389559/b348689a-70c4-4d62-a9b6-bf05563781b7" alt="image" width="1000">
 
 <span style="font-size: smaller; font-style: italic;">Samples of images with difficult lighting conditions.</span>
 
