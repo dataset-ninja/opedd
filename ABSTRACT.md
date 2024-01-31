@@ -2,7 +2,7 @@ The authors introduce the **OPEDD: Off-Road Pedestrian Detection Dataset** for p
 
 Note, similar **OPEDD: Off-Road Pedestrian Detection Dataset** dataset is also available on the [DatasetNinja.com](https://datasetninja.com/):
 
-- [OPEDD: Off-Road Pedestrian Detection Dataset](https://datasetninja.com/opedd)
+- [OFFSED: Off-Road Semantic Segmentation Dataset](https://datasetninja.com/offsed)
 
 ## Motivation
 
@@ -36,7 +36,7 @@ Off-road, agricultural or rural environments show several characteristics that d
 
 The authors record all sequences of our dataset using a Stereolabs ZED Camera. The stereo camera has a baseline of 120mm and is able to capture video sequences with a side-by-side output resolution of 4416x1242 pixels at 15 frames per second. In order to prevent compression artifacts, which can impair detection performance, the video sequences are captured with lossless compression.  Data was captured in short video sequences of 1 to 50 seconds with a framerate of 15 Hz.
 
-* **Environments** The authors capture data in different locations to cover a broad range of possible ADAS application scenarios: Meadows, woods, construction sites, farmland and paddocks. While capturing, emphasis was laid on covering many scenarios that complicate pedestrian detection in offroad environments.
+* **Environments** The authors capture data in different locations to cover a broad range of possible ADAS application scenarios: meadows, woods, construction sites, farmland and paddocks. While capturing, emphasis was laid on covering many scenarios that complicate pedestrian detection in offroad environments.
 
 * **Occlusions** In all of environments, occlusion happens with locally characteristical obstacles like grass, leaves, field crops, construction materials or fences, as well as more unusual barriers like stone walls, garbage bins or objects held by persons (umbrellas, paper files). Moreover, the authors took care to include many instances of person-to-person occlusion, oftentimes by a pedestrian standing close to the camera.
 
@@ -45,11 +45,11 @@ on the side, sitting, crouching or bent over, limbs extended as well as running 
 
 * **Composition** Special attention was paid to have multiple positions in the image covered by pedestrians, to avoid the urban situation where persons are located mainly at the sides. Additionally the authors vary the number of persons and the distances they appear to the camera. Most images are taken from eye-level up to 1m above, facing forward, to simulate taller vehicles like tractors or excavators, with images showing a more downward facing angle.
 
-<img src="https://github.com/dataset-ninja/opedd/assets/120389559/714e637d-155e-48bc-8157-4faa26bfb2e1" alt="image" width="800">
+<img src="https://github.com/dataset-ninja/opedd/assets/120389559/714e637d-155e-48bc-8157-4faa26bfb2e1" alt="image" width="500">
 
 <span style="font-size: smaller; font-style: italic;">Histogram of distances of the portrayed pedestrians to the camera.</span>
 
-<img src="https://github.com/dataset-ninja/opedd/assets/120389559/aca87536-9445-47d9-bfc9-9bc8866ff1a4" alt="image" width="800">
+<img src="https://github.com/dataset-ninja/opedd/assets/120389559/aca87536-9445-47d9-bfc9-9bc8866ff1a4" alt="image" width="500">
 
 <span style="font-size: smaller; font-style: italic;">Histogram depicting how many pedestrians are visible in the images.</span>
 
