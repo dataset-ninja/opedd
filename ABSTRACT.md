@@ -45,11 +45,11 @@ on the side, sitting, crouching or bent over, limbs extended as well as running 
 
 * **Composition** Special attention was paid to have multiple positions in the image covered by pedestrians, to avoid the urban situation where persons are located mainly at the sides. Additionally the authors vary the number of persons and the distances they appear to the camera. Most images are taken from eye-level up to 1m above, facing forward, to simulate taller vehicles like tractors or excavators, with images showing a more downward facing angle.
 
-<img src="https://github.com/dataset-ninja/opedd/assets/120389559/714e637d-155e-48bc-8157-4faa26bfb2e1" alt="image" width="500">
+<img src="https://github.com/dataset-ninja/opedd/assets/120389559/714e637d-155e-48bc-8157-4faa26bfb2e1" alt="image" width="400">
 
 <span style="font-size: smaller; font-style: italic;">Histogram of distances of the portrayed pedestrians to the camera.</span>
 
-<img src="https://github.com/dataset-ninja/opedd/assets/120389559/aca87536-9445-47d9-bfc9-9bc8866ff1a4" alt="image" width="500">
+<img src="https://github.com/dataset-ninja/opedd/assets/120389559/aca87536-9445-47d9-bfc9-9bc8866ff1a4" alt="image" width="400">
 
 <span style="font-size: smaller; font-style: italic;">Histogram depicting how many pedestrians are visible in the images.</span>
 
