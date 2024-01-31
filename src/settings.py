@@ -29,6 +29,7 @@ CV_TASKS: List[CVTask] = [
     CVTask.SemanticSegmentation(),
     CVTask.ObjectDetection(),
     CVTask.Identification(),
+    CVTask.StereoDepthEstimation(),
 ]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
@@ -39,7 +40,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://www.dfki.uni-kl.de/~neigel/offsed.html"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 13168560
+PREVIEW_IMAGE_ID: int = 13192815
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/opedd"
@@ -61,8 +62,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = {
-    "Paper": "https://www.dfki.de/fileadmin/user_upload/import/10861_WSCG_OPEDD.pdf",
-    "Publication": "https://av.dfki.de/publications/opedd-off-road-pedestrian-detection-dataset/",
+    "Research Paper": "https://av.dfki.de/publications/opedd-off-road-pedestrian-detection-dataset/",
 }
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
